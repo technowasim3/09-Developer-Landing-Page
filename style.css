@@ -1,0 +1,397 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+/*----------------------------- Header Section  ------------------------------------*/
+header {
+  background-color: #3400ff;
+  height: 60vh;
+}
+/* ---------------------------  Navigation Bar  ------------------------------------*/
+
+nav {
+  float: right;
+  margin-right: 55px;
+  margin-top: 20px;
+  color: white;
+}
+
+.nav-item {
+  margin: 6px 12px;
+  cursor: pointer;
+}
+
+.nav-item-active {
+  background-color: #ffffff;
+  padding: 6px 9px;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #8356ef;
+}
+
+nav svg.nav-item {
+  position: absolute;
+}
+
+/*----------------------------- Logo --------------------*/
+
+.logo {
+  float: left;
+  margin: 30px 19px 0 56px;
+}
+
+/*--------------------------- Header Text and Images -----------------------------*/
+.header-text img {
+  position: absolute;
+  top: 150px;
+  left: 60px;
+}
+.header-text h2 {
+  position: absolute;
+  top: 170px;
+  color: #ffffff;
+  left: 60px;
+}
+.header-text p {
+  position: absolute;
+  top: 250px;
+  left: 60px;
+  color: #ffffff;
+}
+.header-image {
+  float: right;
+  margin-left: 400px;
+  margin-top: 30px;
+  width: 600px;
+  height: 400px;
+}
+
+/* Companies Section */
+
+.companies {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.company-items {
+  text-decoration: none;
+  margin-left: 60px;
+  color: #000000;
+  font-weight: 500;
+  font-family: "Righteous";
+  font-size: 22px;
+}
+
+/*------------------------------------- API Section ---------------------------- */
+
+.api {
+  height: 70vh;
+  /* border: 3px solid #000000; */
+}
+
+.api-heading {
+  padding-top: 130px;
+  padding-left: 60px;
+}
+
+.cards {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.card-active {
+  margin-left: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  width: 20%;
+  font-size: 15px;
+}
+
+.card {
+  margin-left: 30px;
+
+  transition: 0.3s;
+  /* border-radius: 8px; */
+  padding: 20px;
+  width: 20%;
+  font-size: 15px;
+  cursor: pointer;
+}
+.card-active h3 {
+  color: #8356ef;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card p {
+  font-size: 15px;
+}
+
+/*---------------------------------- Blog Section-------------------- */
+
+.blog-heading {
+  margin-left: 60px;
+  margin-top: 80px;
+}
+.blog-cards {
+  display: flex;
+  height: 22vh;
+}
+.blog-card {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 50vw;
+  height: 40vh;
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-right: 15px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+  border-top-left-radius: 45px;
+}
+
+.blog-image img {
+  width: 238px;
+  height: 248px;
+}
+
+.blog-content {
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+.blog-content h6 {
+  color: #8356ef;
+}
+
+.blog-content :last-child {
+  width: 55px;
+  font-size: 14px;
+  padding-top: 15px;
+  height: 55px;
+}
+
+.blog-bottom {
+  position: absolute;
+  left: 300px;
+  top: 216px;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  height: 58px;
+  border-radius: 50%;
+  width: 58px;
+}
+
+.blog-author {
+  position: absolute;
+  top: 110px;
+  left: 190px;
+  width: 95px;
+  font-size: 12px;
+}
+/* ---------------------------- FAQ Section ----------------------- */
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+  height: 48vh;
+  background-color: #e9edff;
+}
+
+.faq-content h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #000000;
+  /* padding-top: 25px; */
+  padding-left: 60px;
+}
+
+.faq-content h4 {
+  font-size: 12px;
+  /* margin-top: 15px; */
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #000000;
+  padding-left: 60px;
+}
+
+.faq-content :nth-child(3) {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #000000;
+  padding-left: 60px;
+}
+
+.faq-image {
+  position: relative;
+  margin-right: 0px;
+}
+
+.faq-image img {
+  width: 525px;
+  height: 295px;
+}
+
+.faq-content button {
+  margin-top: 10px;
+  margin-left: 60px;
+  background-color: #5a31fc;
+  color: #ffffff;
+  padding: 10px;
+  width: 120px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+/*------------------------ Download Section ---------------------------- */
+
+.download-section {
+  width: 100%;
+  height: 30vh;
+  display: grid;
+
+  grid-template-columns: 3fr 1fr;
+  position: relative;
+}
+
+.download-content {
+  margin-left: 60px;
+  margin-top: 70px;
+  width: 260px;
+
+  cursor: pointer;
+}
+
+.download-content h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.download-content span {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.download-email {
+  width: 50vw;
+}
+
+.download-email form {
+  margin-top: 80px;
+  margin-left: 65px;
+  position: relative;
+}
+
+.download-email form input {
+  padding: 10px 200px 10px 20px;
+  background-color: #e9edff;
+  border-radius: 25px;
+  text-align: start;
+  margin-left: 182px;
+  border: none;
+  
+}
+
+.download-email form button{
+  position: absolute;
+  right: 56px;
+  top: 2px;
+  padding: 8px 30px;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  background-color: #5A31FC;
+  font-family: 'Poppins',sans-serif;
+  cursor: pointer;
+
+}
+
+/* ------------------------------- Footer LEFT Section  -------------------------------- */
+
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: #4719FD;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+}
+
+.footer-logo{
+  margin-top: 50px;
+  width: 122px;
+  height: 42px;
+  cursor: pointer;
+}
+
+.list{
+  list-style: none;
+  display: flex;
+  margin-left: -25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.list li{
+  margin-left: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* -------------------- Footer RIGHT Section -------------------- */
+
+.footer-right{
+  margin-right: 60px;
+  width: 20vw;
+  align-items: center;
+}
+
+.footer-logos{
+  margin-top: 50px;
+  margin-left: 28px;
+  cursor: pointer;
+
+}
+.logos-list{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 8px;
+  flex-direction: row;
+  margin-right: 30px;
+}
+
+.logos-list .list-items{
+  list-style: none;
+  margin-left: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
